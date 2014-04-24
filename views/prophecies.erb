@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>21st Century Prophecies</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <script type="text/javascript" src="js/jquery-latest.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-cust.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script></script>
+
+</head>
+<body>
+  <h1>Twenty First Century Prophecies</h1>
+
+  <div id="poem">
+
+  </div>
+  <div id="saved">
+    <h2><a href="#">Save &amp; Run</a></h2>
+    <p id="loader"></p>
+  </div>
+
+  <div id="manifesto" style="display: none;">
+    <div id="controls"></div>
+    <p><%= @tw.user("elonmusk").tweet.text %><br>
+    <%= @tw.user("KingJames").tweet.text %><br>
+    <%= @tw.user("Pontifex").tweet.text %><br>
+    <%= @tw.user("KimJongNumberUn").tweet.text %><br>
+    <%= @tw.user("Beyonce").tweet.text %><br>
+    <%= @tw.user("richardbranson").tweet.text %><br>
+    <%= @tw.user("god").tweet.text %><br><br>
+
+    <%= "#{Faraday.get("https://api.github.com/zen").body}" %></p>
+
+  </div>
+
+</body>
+</html>

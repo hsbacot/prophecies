@@ -1,0 +1,99 @@
+$black: #111111;
+$darkgray: #333332;
+
+// The solarized palette
+
+$base03:  #002b36;
+$base02: #073642;
+$base01:  #586e75;
+$base00:  #657b83;
+$base0:   #839496;
+$base1:   #93a1a1;
+$base2:   #eee8d5;
+$base3:   #fdf6e3;
+
+$yellow:  #b58900 ;
+$orange:  #cb4b16 ;
+$red:   #dc322f ;
+$magenta: #d33682 ;
+$violet:  #6c71c4 ;
+$blue:   #268bd2 ;
+$cyan:    #2aa198 ;
+$green:   #33BB00 ;
+
+$fg:      $base00;
+$bg:      $base3;
+$hl:      $base2;
+$emph:    $base01;
+$comment: $base1;
+
+body {
+  margin: 0;
+  margin-left: 5px;
+  color: $darkgray;
+  font-family: "Courier New", Courier, monospace;
+}
+h1, p {
+  font-family: "Courier New", Courier, monospace;
+}
+// for 21st century prophecies
+#manifesto {
+  background-image:url('/textedit.png');
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+  width: 1000px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 25px;
+  -webkit-box-shadow: 12px 20px 100px 12px #212121;
+  box-shadow: 12px 20px 100px 12px #212121;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  position: fixed;
+  top: 80px;
+  left: 35px;
+
+  // p {
+  //   margin-top: 0;
+  // }
+}
+
+#controls {
+  margin: 0;
+  height: 16px;
+  width: 100%;
+  cursor: move;
+}
+
+.string, .orange {
+  color: #cb4b16;
+}
+.yellow {
+  color: $yellow;
+}
+.red {
+  color: $red;
+}
+.magenta {
+  color: $magenta;
+}
+.violet {
+  color: $violet;
+}
+.blue {
+  color: $blue;
+}
+.cyan {
+  color: $cyan;
+}
+.green {
+  color: $green;
+}
+#poem p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.p4, .p5, .p6, .p7, .p23 {
+  margin-left: 20px;
+}
