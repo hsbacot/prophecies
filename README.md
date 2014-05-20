@@ -1,8 +1,9 @@
-This was built to accompany the reading as a visual. A new line appears after every third keystroke. This was done to mimmic typing the code as part of the performance while eliminating the chance of a typo or slowing down the pace of the reading. Only the first line is read on lines with mutiple sentences.
-[SF Gate](http://www.sfgate.com/technology/article/Let-them-count-ways-that-code-can-poetry-5279031.php#photo-5956254)
+This was built to accompany the reading as a visual. A new line appears after every third keystroke. This was done to mimmic typing the code as part of the performance while eliminating the chance of a typo or slowing down the pace of the reading. Only the first line is read on lines with mutiple sentences.  
+[SF Gate](http://www.sfgate.com/technology/article/Let-them-count-ways-that-code-can-poetry-5279031.php#photo-5956254)  
+[Interactive Version, begin typing](http://prophecies.herokuapp.com)
 
 
-Annotation by Line:
+Annotation by Line:  
 1. The medium is twitter. An Allusion to Marshall McLuhan’s “The medium is the message. With twitter as the medium, the user knows the content is often whimsical blurbs with real talk sprinkled in.  
 2. The medium is essential to end result ( and to the code running properly )  
 3-8. Not read, setting up the twitter client/medium ( obvious to people that speak code )  
